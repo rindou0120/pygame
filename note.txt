@@ -1,0 +1,5 @@
+pip install pyinstaller
+
+pip show pyinstaller
+
+python -m PyInstaller --onefile --windowed --icon="C:\pygame_clawer\img\icon.png" --add-data "C:\pygame_clawer\img\claw.png;img" --add-data "C:\pygame_clawer\img\duck.png;img" --add-data "C:\pygame_clawer\img\icon.png;img" "C:\pygame_clawer\ClawMachine.py"
